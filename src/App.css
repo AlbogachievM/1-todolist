@@ -6,3 +6,18 @@
 .App > div {
   margin-right: 50px;
 }
+.todolist{
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: bisque;
+  padding: 20px;
+  text-align: center;
+}
+.todolist ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todolist ul li+li{
+  margin-top: 10px;
+}
